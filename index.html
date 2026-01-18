@@ -1,0 +1,514 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Toga Wallet - Secure Cryptocurrency Wallet</title>
+    <meta name="description" content="Download Toga Wallet - The most secure and intuitive cryptocurrency wallet for managing all your digital assets.">
+    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="wallet-style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Animated Background -->
+    <div class="background-animation">
+        <div class="light-beam"></div>
+        <div class="light-beam"></div>
+        <div class="light-beam"></div>
+        <div class="grid-overlay"></div>
+    </div>
+
+    <!-- Minimal Header -->
+    <header class="header">
+        <div class="container">
+            <div class="header-content">
+                <a href="#" class="logo">
+                    <div class="logo-icon">Toga</div>
+                </a>
+                <nav class="header-nav">
+                    <a href="#features"><span>Features</span></a>
+                    <a href="#download"><span>Download</span></a>
+                    <a href="#security"><span>Security</span></a>
+                    <a href="#" class="btn-nav"><span>Get Started</span></a>
+                </nav>
+                <button class="mobile-menu-btn">
+                    <i class="fas fa-bars"></i>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section - Compact -->
+    <section class="hero-section">
+        <div class="container">
+            <div class="hero-content">
+                <!-- Glow effect -->
+                <div class="hero-glow"></div>
+                
+                <!-- Main Content -->
+                <div class="hero-main">
+                    <div class="version-chip">
+                        <span class="chip-icon">✨</span>
+                        <span class="chip-text">Version 2.1.4 • Latest Release</span>
+                    </div>
+                    
+                    <h1 class="hero-title">
+                        Your Gateway to
+                        <span class="gradient-text">Web3</span>
+                    </h1>
+                    
+                    <p class="hero-subtitle">
+                        A secure, intuitive cryptocurrency wallet that puts you in control of your digital assets. 
+                        Manage Bitcoin, Ethereum, and 50+ blockchains with ease.
+                    </p>
+                    
+                    <!-- Primary CTA -->
+                    <div class="hero-cta">
+                        <a href="#download" class="btn btn-primary btn-hero">
+                            <i class="fas fa-download"></i>
+                            <span>Download Now</span>
+                            <div class="btn-glow"></div>
+                        </a>
+                        <div class="cta-note">
+                            <i class="fas fa-shield-check"></i>
+                            <span>No registration required • 100% Free</span>
+                        </div>
+                    </div>
+                    
+                    <!-- Quick Stats -->
+                    <div class="quick-stats">
+                        <div class="stat">
+                            <div class="stat-value">250+</div>
+                            <div class="stat-label">Active Users</div>
+                        </div>
+                        <div class="stat-divider"></div>
+                        <div class="stat">
+                            <div class="stat-value">$4.2B+</div>
+                            <div class="stat-label">Assets Secured</div>
+                        </div>
+                        <div class="stat-divider"></div>
+                        <div class="stat">
+                            <div class="stat-value">50+</div>
+                            <div class="stat-label">Chains Supported</div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Preview Image -->
+                <div class="hero-preview">
+                    <div class="preview-card">
+                        <div class="preview-header">
+                            <div class="preview-dots">
+                                <div class="dot red"></div>
+                                <div class="dot yellow"></div>
+                                <div class="dot green"></div>
+                            </div>
+                            <div class="preview-title">Toga Wallet</div>
+                        </div>
+                        <div class="preview-content">
+                            <div class="wallet-ui">
+                                <div class="balance-display">
+                                    <div class="balance-label">Total Balance</div>
+                                    <div class="balance-amount">$42,689.50</div>
+                                    <div class="balance-chart"></div>
+                                </div>
+                                <div class="assets-list">
+                                    <div class="asset">
+                                        <div class="asset-icon btc">₿</div>
+                                        <div class="asset-info">
+                                            <div class="asset-name">Bitcoin</div>
+                                            <div class="asset-balance">*.** BTC</div>
+                                        </div>
+                                    </div>
+                                    <div class="asset">
+                                        <div class="asset-icon eth">Ξ</div>
+                                        <div class="asset-info">
+                                            <div class="asset-name">Ethereum</div>
+                                            <div class="asset-balance">*.** ETH</div>
+                                        </div>
+                                    </div>
+                                    <div class="asset">
+                                        <div class="asset-icon sol">◎</div>
+                                        <div class="asset-info">
+                                            <div class="asset-name">Solana</div>
+                                            <div class="asset-balance">* SOL</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section - Compact -->
+    <section id="features" class="features-section">
+        <div class="container">
+            <div class="section-header">
+                <div class="section-label">WHY CHOOSE Toga</div>
+                <h2 class="section-title">Enterprise Security,<br>Simplified Experience</h2>
+            </div>
+            
+            <div class="features-grid">
+                <!-- Feature 1 -->
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <div class="icon-bg"></div>
+                        <i class="fas fa-shield-alt"></i>
+                    </div>
+                    <div class="feature-content">
+                        <h3>Bank-Grade Security</h3>
+                        <p>Military-grade encryption, hardware wallet support, and multi-signature protection.</p>
+                    </div>
+                </div>
+                
+                <!-- Feature 2 -->
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <div class="icon-bg"></div>
+                        <i class="fas fa-bolt"></i>
+                    </div>
+                    <div class="feature-content">
+                        <h3>Lightning Fast</h3>
+                        <p>Optimized transactions with smart gas management and instant swaps.</p>
+                    </div>
+                </div>
+                
+                <!-- Feature 3 -->
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <div class="icon-bg"></div>
+                        <i class="fas fa-layer-group"></i>
+                    </div>
+                    <div class="feature-content">
+                        <h3>Multi-Chain</h3>
+                        <p>Support for Ethereum, Solana, Polygon, Arbitrum, and all major chains.</p>
+                    </div>
+                </div>
+                
+                <!-- Feature 4 -->
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <div class="icon-bg"></div>
+                        <i class="fas fa-exchange-alt"></i>
+                    </div>
+                    <div class="feature-content">
+                        <h3>Built-in Exchange</h3>
+                        <p>Access 10+ DEX aggregators for the best swap rates across networks.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Download Section - Enhanced -->
+    <section id="download" class="download-section">
+        <div class="container">
+            <div class="section-header">
+                <div class="section-label">GET STARTED</div>
+                <h2 class="section-title">Download for Your Platform</h2>
+                <p class="section-subtitle">Lightweight installers, ready in seconds</p>
+            </div>
+            
+            <div class="download-grid">
+                <!-- Windows -->
+                <div class="download-card">
+                    <div class="platform-header">
+                        <div class="platform-icon">
+                            <i class="fab fa-windows"></i>
+                        </div>
+                        <div class="platform-badge">Most Popular</div>
+                    </div>
+                    <h3>Windows</h3>
+                    <p class="platform-desc">Windows 10/11 (64-bit)</p>
+                    <div class="file-details">
+                        <div class="file-size">
+                            <i class="fas fa-weight-hanging"></i>
+                            <span>25.4 MB</span>
+                        </div>
+                        <div class="file-type">
+                            <i class="fas fa-file-code"></i>
+                            <span>.exe Installer</span>
+                        </div>
+                    </div>
+                    <a href="#" class="download-btn">
+                        <div class="btn-content">
+                            <i class="fas fa-download"></i>
+                            <span>Download for Windows</span>
+                        </div>
+                        <div class="btn-glow"></div>
+                    </a>
+                    <div class="security-info">
+                        <i class="fas fa-fingerprint"></i>
+                        <span>SHA256: a1b2...abcd</span>
+                    </div>
+                </div>
+                
+                <!-- macOS -->
+                <div class="download-card">
+                    <div class="platform-header">
+                        <div class="platform-icon">
+                            <i class="fab fa-apple"></i>
+                        </div>
+                    </div>
+                    <h3>macOS</h3>
+                    <p class="platform-desc">macOS 11.0+ (Apple Silicon/Intel)</p>
+                    <div class="file-details">
+                        <div class="file-size">
+                            <i class="fas fa-weight-hanging"></i>
+                            <span>36.9 MB</span>
+                        </div>
+                        <div class="file-type">
+                            <i class="fas fa-file-archive"></i>
+                            <span>.dmg Package</span>
+                        </div>
+                    </div>
+                    <a href="#" class="download-btn">
+                        <div class="btn-content">
+                            <i class="fas fa-download"></i>
+                            <span>Download for macOS</span>
+                        </div>
+                        <div class="btn-glow"></div>
+                    </a>
+                    <div class="security-info">
+                        <i class="fas fa-fingerprint"></i>
+                        <span>SHA256: b2c3...defg</span>
+                    </div>
+                </div>
+                
+                <!-- Linux -->
+                <div class="download-card">
+                    <div class="platform-header">
+                        <div class="platform-icon">
+                            <i class="fab fa-linux"></i>
+                        </div>
+                    </div>
+                    <h3>Linux</h3>
+                    <p class="platform-desc">Ubuntu 20.04+ (AppImage)</p>
+                    <div class="file-details">
+                        <div class="file-size">
+                            <i class="fas fa-weight-hanging"></i>
+                            <span>35.1 MB</span>
+                        </div>
+                        <div class="file-type">
+                            <i class="fas fa-file-code"></i>
+                            <span>.AppImage</span>
+                        </div>
+                    </div>
+                    <a href="#" class="download-btn">
+                        <div class="btn-content">
+                            <i class="fas fa-download"></i>
+                            <span>Download for Linux</span>
+                        </div>
+                        <div class="btn-glow"></div>
+                    </a>
+                    <div class="security-info">
+                        <i class="fas fa-fingerprint"></i>
+                        <span>SHA256: c3d4...efgh</span>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="download-note">
+                <div class="note-icon">
+                    <i class="fas fa-shield-check"></i>
+                </div>
+                <div class="note-content">
+                    <h4>Verify Before Install</h4>
+                    <p>Always check the SHA256 checksum to ensure your download hasn't been tampered with.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Security Section - Compact -->
+    <section id="security" class="security-section">
+        <div class="container">
+            <div class="security-grid">
+                <div class="security-content">
+                    <div class="section-label">SECURITY ARCHITECTURE</div>
+                    <h2>Your Keys,<br>Your Control</h2>
+                    <p class="security-desc">
+                        Toga Wallet never has access to your funds. All cryptographic operations happen locally on your device.
+                    </p>
+                    
+                    <div class="security-features">
+                        <div class="security-feature">
+                            <div class="feature-check">
+                                <i class="fas fa-check"></i>
+                            </div>
+                            <div>
+                                <h4>Local Key Storage</h4>
+                                <p>Private keys never leave your device</p>
+                            </div>
+                        </div>
+                        <div class="security-feature">
+                            <div class="feature-check">
+                                <i class="fas fa-check"></i>
+                            </div>
+                            <div>
+                                <h4>Biometric Authentication</h4>
+                                <p>Face ID, Touch ID, or Windows Hello</p>
+                            </div>
+                        </div>
+                        <div class="security-feature">
+                            <div class="feature-check">
+                                <i class="fas fa-check"></i>
+                            </div>
+                            <div>
+                                <h4>Open Source Core</h4>
+                                <p>Transparent, audited cryptography</p>
+                            </div>
+                        </div>
+                        <div class="security-feature">
+                            <div class="feature-check">
+                                <i class="fas fa-check"></i>
+                            </div>
+                            <div>
+                                <h4>Regular Audits</h4>
+                                <p>Third-party security reviews every quarter</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="security-visual">
+                    <div class="visual-container">
+                        <div class="visual-ring ring-1"></div>
+                        <div class="visual-ring ring-2"></div>
+                        <div class="visual-ring ring-3"></div>
+                        <div class="visual-core">
+                            <i class="fas fa-lock"></i>
+                        </div>
+                        <div class="visual-particle"></div>
+                        <div class="visual-particle"></div>
+                        <div class="visual-particle"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section - Compact -->
+    <section class="faq-section">
+        <div class="container">
+            <div class="section-header">
+                <div class="section-label">FAQ</div>
+                <h2 class="section-title">Common Questions</h2>
+            </div>
+            
+            <div class="faq-grid">
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>Is Toga Wallet really free?</h3>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Yes, completely free. We don't charge any fees for using the wallet. You only pay standard network fees for transactions.</p>
+                    </div>
+                </div>
+                
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>How do I recover my wallet?</h3>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>During setup, you'll receive a 12-word recovery phrase. Keep it secure and offline. This phrase can restore your wallet on any device.</p>
+                    </div>
+                </div>
+                
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>Are mobile apps available?</h3>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>iOS and Android apps are in active development and will launch in Q2 2024. Follow our social media for updates.</p>
+                    </div>
+                </div>
+                
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>Is my data private?</h3>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>We don't collect personal data. Anonymous analytics are opt-in only. Your financial privacy is our priority.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Final CTA -->
+    <section class="cta-section">
+        <div class="container">
+            <div class="cta-card">
+                <div class="cta-content">
+                    <h2>Ready to Secure Your Crypto?</h2>
+                    <p>Join 250+ users who trust Toga Wallet with their digital assets.</p>
+                </div>
+                <div class="cta-action">
+                    <a href="#download" class="btn btn-primary btn-cta">
+                        <i class="fas fa-rocket"></i>
+                        <span>Download Now</span>
+                        <div class="btn-glow"></div>
+                    </a>
+                    <div class="cta-footnote">
+                        <i class="fas fa-clock"></i>
+                        <span>Installation takes less than 2 minutes</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Compact Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <div class="logo">Toga</div>
+                    <p class="footer-tagline">Secure Cryptocurrency Solutions</p>
+                </div>
+                
+                <div class="footer-links">
+                    <a href="#features">Features</a>
+                    <a href="#download">Download</a>
+                    <a href="#security">Security</a>
+                    <a href="#">Documentation</a>
+                    <a href="#">Support</a>
+                </div>
+                
+                <div class="footer-social">
+                    <a href="#" class="social-link">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                    <a href="#" class="social-link">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="#" class="social-link">
+                        <i class="fab fa-discord"></i>
+                    </a>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>© 2026 Toga Studio. All rights reserved.</p>
+                <div class="footer-legal">
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms of Service</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="../script.js"></script>
+</body>
+</html>
